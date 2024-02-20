@@ -1,0 +1,90 @@
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 4rem;
+    bottom: 20px; /* Adjust as per your requirement */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%; /* Adjust as per your requirement */
+    background-color: #ffffff;
+    padding: 20px;
+    
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: pink;
+    
+  }
+
+  .profile-container h5,h3{
+    color:red;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .profile-container > div {
+    text-align: center;
+  }
+  
+  .profile-container p {
+    margin: 5px 0;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+@media Screen and (max-width:408px){
+    .profile-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: relative;
+        top: 64rem;
+        bottom: 20px; /* Adjust as per your requirement */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%; /* Adjust as per your requirement */
+        background-color: #ffffff;
+        padding: 20px;
+        
+        border-radius: 10px;
+        align-items: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        background-color: pink;
+        
+      }
+    
+      .profile-container h3{
+        color:red;
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+      
+      
+      .profile-container > div {
+        text-align: center;
+      }
+      
+      .profile-container p {
+        margin: 5px 0;
+      }
+
+
+}

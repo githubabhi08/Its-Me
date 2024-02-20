@@ -1,0 +1,832 @@
+
+.light-mode {
+  background-color: #ffffff; /* Light mode background color */
+  color: #000000; /* Light mode text color */
+}
+
+.dark-mode {
+  background-color: #333333; /* Dark mode background color */
+  color: #ffffff; /* Dark mode text color */
+}
+
+
+.nav-rght{
+  display:flex;
+  flex-direction: row;
+  gap: 5.1rem;
+  font-size: 22px;
+  font-weight: 700;
+  position: relative;
+  left: 18rem;
+  top: 2rem;
+  list-style: none;
+  color: red;
+}
+.nav-left{
+  position: relative;
+  left: 3rem;
+  top: 2rem;
+  font-size: 20px;
+  font-weight: 700;
+  display:flex;
+  flex-direction: row;
+  gap: 7.1rem;
+  
+}
+
+.nav-left h2{
+  color: red;
+  font-weight: 700;
+}
+
+
+/* Main starts */
+.me{
+  position: relative;
+  top: 17rem;
+  left: 3rem;
+}
+
+.me> :nth-child(1){
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+
+.me> :nth-child(2){
+  font-size: 30px;
+  font-weight: 700;
+  color:blue;
+  font-family: cursive;
+}
+
+.me> :nth-child(3){
+  font-size: 20px;
+  font-weight: 500;
+  
+  
+}
+
+.social{
+  position: relative;
+  top: 17rem;
+  left: 3rem;
+  display: flex;
+  flex-direction: row;
+  
+
+  gap: 1rem;
+}
+.social a{
+  font-size: 37px;
+  
+  
+ 
+}
+/* main image */
+.Image{
+  position: relative;
+  left: 50%;
+  top: -30rem;
+  
+  z-index: 1;
+}
+
+.Image img{
+  height: 590px;
+  width: 590px;
+}
+
+
+/* smiley */
+.sm> img{
+  position: relative;
+z-index: 2;
+  height: 200px;
+  width: 200px;
+  top:-7rem;
+  left: 28%;
+}
+/*rocket */
+.sm2> img{
+  position: relative;
+  left:69rem ;
+  height: 220px;
+  width: 220px;
+  top: -0.4rem;
+  z-index: 2;
+}
+
+
+/* services comp */
+.spec{
+  position: relative;
+  top: -20rem;
+  left: 7rem;
+
+}
+.spec h1{
+  font-size: 77px;
+ 
+}
+.spec span{
+  font-size: 37px;
+  color: blue;
+  position: absolute;
+  top: 5.9rem;
+  font-weight: 700;
+}
+/* spec para... */
+#add{
+  position: absolute;
+  top: 8.7rem;
+  
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.spec button {
+  height: 3rem;
+  width: 22rem;
+  position: absolute;
+  top: 17rem;
+  background-image: linear-gradient(to right, blue,cyan);
+  font-size: 27px;
+  font-weight: 700;
+  
+  box-shadow: 2px 2px 2px black;
+}
+
+
+
+/* boxes */
+
+.boxing{
+  position: relative;
+  top: -20rem;
+  left: 70%;
+}
+
+.box1{
+  position: absolute;
+  height: 320px;
+  width: 270px;
+  border: solid blue 7px;
+  border-radius: 17%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 20rem;
+}
+.box1 i{
+  color: red;
+  font-size: 97px;
+}
+
+.box1 span{
+  color: red;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.box1 h3{
+  color: red;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.box1 h1{
+  color: red;
+  font-weight: 700;
+  font-size: 47px;
+}
+
+/* box2 */
+
+.box2{
+  position: absolute;
+  top: 32rem;
+  left: -28rem;
+  height: 390px;
+  width: 290px;
+  border: solid blue 7px;
+  border-radius: 17%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+
+
+.box2 img{
+  position: absolute;
+  height:220px ;
+  width:220px ;
+  top: 9rem;
+  left: 1.4rem;
+  z-index: 1;
+}
+
+.box2 h1{
+  color: red;
+  font-weight: 700;
+  font-size: 47px;
+  position: absolute;
+  top: 5rem;
+  left: 3rem;
+  z-index: 2;
+}
+
+
+
+
+/* box3 */
+.box3{
+  position: relative;
+  height: 480px;
+  width: 490px;
+  top: 44rem;
+  left: -5rem;
+  border: solid blue 7px;
+  border-radius: 17%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.box3 img{
+  position: absolute;
+  top: 1rem;
+  height: 350px;
+  width: 350px;
+  left: 4rem;
+
+}
+
+.box3 h1{
+  color: red;
+  font-weight: 700;
+  font-size: 47px;
+  position: absolute;
+  top: 19rem;
+  left: 25%;
+}
+
+
+/* Certification */
+
+.certi{
+  position: relative;
+  top: 34rem;
+}
+
+.certi h1{
+  position: absolute;
+  left: 40%;
+  font-weight: 700;
+  font-size: 50px;
+  top: -5rem;
+}
+
+.certi img{
+  position: absolute;
+  left: 3rem;
+}
+
+/* slider */
+
+.smd{
+  position: relative;
+  top: 127rem;
+}
+
+.smd img{
+  height: 500px;
+  width: 500px;
+  position: relative;
+  left: 40%;
+}
+
+
+.portfolio{
+  position: relative;
+  top: 110rem;
+}
+
+.portfolio h1{
+  position: absolute;
+  left:40%;
+  top: -10rem;
+  color: blue;
+  font-weight: 700;
+  font-size:50px ;
+
+}
+
+
+/* .portfolio-slider{
+  margin-top: 3rem;
+  width: 100%;
+}
+.portfolio .swiper{
+  overflow: visible;
+}
+
+.portfolio-slider .swiper-slide{
+  width: 20rem;
+} */
+
+.portfolio img {
+  width: 40rem;
+ 
+}
+
+.swiper-slide h2{
+  color: red;
+  font-weight: 700;
+}
+
+
+/* .swiper-container {
+  width: 80%;
+  margin: 20px auto;
+} */
+
+.swiper-slide {
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white;
+  font-size: 18px;
+  
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-top: -15px;
+}
+
+.swiper-button-next {
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media query*/
+
+@media screen and (max-width:408px) {
+
+  /* Navbar */
+
+
+
+ 
+/*Body  */
+  .portfolio{
+      position: relative;
+      top: 110rem;
+      width: 22rem;
+      
+      margin-left: 1.5rem;
+      margin-right: .5rem;
+  }
+ 
+
+  .portfolio-slider{
+      margin-top: 1.2rem;
+      width: 100%;
+     
+  }
+/* body img */
+
+  .swiper-slide {
+      text-align: center;
+      padding: 0px 0px 0px 25px;
+      background-color: #eee;
+      
+    }
+
+  .portfolio img {
+      width: 10.2rem;
+      height: 7rem;
+     
+  }
+  
+  .swiper-slide h2{
+      font-size: 17px;
+      color: red;
+      font-weight: 200;
+      padding-right: 3rem;
+  }
+
+
+  .nav-rght{
+      display:flex;
+      flex-direction: row;
+      gap: .9rem;
+      font-size: 12px;
+      font-weight: 700;
+      position: relative;
+      left: -.7rem;
+      top: 4rem;
+      list-style: none;
+      color: red;
+  }
+  .nav-left{
+      position: relative;
+      left: 1rem;
+      top: 2rem;
+      font-size: 20px;
+      font-weight: 700;
+      display:flex;
+      flex-direction: row;
+      gap: 7.1rem;
+      
+  }
+  
+  .nav-left h2{
+      color: red;
+      font-weight: 700;
+      font-size: 47px;
+  }
+
+
+  /* main comp */
+
+  .me{
+      position: relative;
+      top: 12rem;
+      left: 1.7rem;
+  }
+  
+  .me> :nth-child(1){
+      font-size: 17px;
+      font-weight: 500;
+      
+  }
+  
+  .me> :nth-child(2){
+      font-size: 20px;
+      font-weight: 900;
+      color:red;
+      font-family: cursive;
+  }
+  
+  .me> :nth-child(3){
+      font-size: 10px;
+      font-weight: 400;
+      
+      
+  }
+  
+  .social{
+      position: relative;
+      top: 12rem;
+      left: 7rem;
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+  }
+  .social a{
+      font-size: 37px;
+      
+     
+  }
+  /* main image */
+  .Image{
+      position: relative;
+      left: 17%;
+      top: -4rem;
+      
+      z-index: 1;
+  }
+
+  .sm2> img{
+      position: relative;
+      left:14rem ;
+      height: 90px;
+      width: 90px;
+      top: 14.1rem;
+      z-index: 2;
+   }
+  
+  .Image img{
+      height: 290px;
+      width: 290px;
+  }
+
+   /* smiley */
+.sm> img{
+  position: relative;
+z-index: 2;
+  height: 120px;
+  width: 120px;
+  top:-3.4rem;
+  left: 27%;
+}
+
+
+/* services */
+
+.spec{
+  position: relative;
+  top: 1rem;
+  left: 2rem;
+
+}
+.spec h1{
+  font-size: 67px;
+ 
+}
+.spec span{
+  font-size: 19px;
+  color: blue;
+  position: absolute;
+  top: 4.9rem;
+  font-weight: 700;
+}
+/* spec para... */
+#add{
+  position: absolute;
+  top: 7.7rem;
+  
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.spec button {
+  height: 3rem;
+  width: 18rem;
+  position: absolute;
+  top: 14.9rem;
+  background-image: linear-gradient(to right, blue,cyan);
+  font-size: 27px;
+  font-weight: 700;
+  left: .2rem;
+  box-shadow: 2px 2px 2px black;
+}
+
+
+
+
+/* boxes */
+
+.boxing{
+  position: relative;
+  top: 20rem;
+  left: 50%;
+}
+
+.box1{
+  position: absolute;
+  height: 320px;
+  width: 270px;
+  top:4rem;
+  left: -10rem;
+  border: solid blue 7px;
+  border-radius: 17%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.box1 i{
+  color: red;
+  font-size: 97px;
+}
+
+.box1 span {
+  color: red;
+  font-weight: 700;
+  font-size: 32px;
+  /* changed may */
+  position: absolute;
+  top: 2rem;
+  left: 3.7rem;
+}
+
+.box1 h3{
+  color: red;
+  font-weight: 700;
+  font-size: 32px;
+  visibility: hidden;
+  
+}
+
+.box1 h1{
+  color: red;
+  font-weight: 700;
+  font-size: 47px;
+  
+}
+
+/* box2 */
+
+.box2{
+  position: absolute;
+  top: 27rem;
+  left: -10rem;
+  height: 320px;
+  width: 270px;
+  border: solid blue 7px;
+  border-radius: 17%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+
+
+.box2 img{
+  position: absolute;
+  height:190px ;
+  width:190px ;
+  top: 4.9rem;
+  left: 1.7rem;
+  z-index: 1;
+}
+
+.box2 h1{
+  color: red;
+  font-weight: 700;
+  font-size: 47px;
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  z-index: 2;
+}
+
+
+
+
+/* box3 */
+.box3{
+  position: absolute;
+  height: 420px;
+  width:270px;
+  top: 49rem;
+  left: -10rem;
+  border: solid blue 7px;
+  border-radius: 17%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.box3 img{
+  position: absolute;
+  top: 1rem;
+  height: 250px;
+  width: 250px;
+  left: -.4rem;
+  top: 4.2rem;
+
+}
+
+.box3 h1{
+  color: red;
+  font-weight: 700;
+  font-size: 37px;
+  position: absolute;
+  top: 19rem;
+  left: 15%;
+}
+
+
+/* certificate */
+
+.certi h1{
+  position: relative;
+  top: 65rem;
+  left: 1.7rem;
+  font-size: 42px;
+
+}
+.certi img {
+  position: relative;
+  top: 75rem;
+  left: 2.4rem;
+  height: 350px;
+  width: 288px;
+}
+
+
+
+/* swiper.js */
+
+.portfolio h1{
+  position: relative;
+  top: -5.9rem;
+  left: 4.7rem;
+
+}
+
+.swiper-container {
+  width: 10%;
+  height: 10%;
+  /* margin: 20px auto; */
+}
+
+.swiper-slide {
+  text-align: center;
+  /* padding: 20px; */
+  width: 10%;
+  height: 20%;
+  background-color: #eee;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white;
+  font-size: 18px;
+  
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-top: -15px;
+}
+
+.swiper-button-next {
+  margin-left: 10px;
+}
+.swiper-slide h2{
+  color: red;
+  font-weight: 700;
+}
+}
