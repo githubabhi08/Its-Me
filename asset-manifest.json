@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Its-Me/static/css/main.65e920df.css",
+    "main.js": "/Its-Me/static/js/main.f7e753be.js",
+    "static/js/453.c17ccf3f.chunk.js": "/Its-Me/static/js/453.c17ccf3f.chunk.js",
+    "static/media/sam.jpg": "/Its-Me/static/media/sam.13f6773088c0bc40f369.jpg",
+    "static/media/excellent.jpg": "/Its-Me/static/media/excellent.ac6abb98e5da1a84e647.jpg",
+    "static/media/ramesh.jpg": "/Its-Me/static/media/ramesh.c67da155b337c485abdc.jpg",
+    "static/media/outstanding.jpg": "/Its-Me/static/media/outstanding.52b14e50630c0d580972.jpg",
+    "static/media/chan.jpg": "/Its-Me/static/media/chan.c58d396e1d6ad6c6e27b.jpg",
+    "static/media/fire.webp": "/Its-Me/static/media/fire.f82d510b5b0a9e747674.webp",
+    "static/media/sm.png": "/Its-Me/static/media/sm.99b22b354d85939a6c43.png",
+    "static/media/mart.png": "/Its-Me/static/media/mart.ed9d7cfec2e976712f14.png",
+    "static/media/Logo2.png": "/Its-Me/static/media/Logo2.d16d8ffec7d83b9a1548.png",
+    "static/media/port_Img.webp": "/Its-Me/static/media/port_Img.aa581e0a1a6cb35faa93.webp",
+    "static/media/Certificate.png": "/Its-Me/static/media/Certificate.f3f40eba540c3f98d15a.png",
+    "static/media/telep.webp": "/Its-Me/static/media/telep.c9971ea60c5c2bae0612.webp",
+    "static/media/pages.png": "/Its-Me/static/media/pages.e2dec630914368a5ca7a.png",
+    "static/media/Resume2.png": "/Its-Me/static/media/Resume2.5d5fed45b9c3df6e9403.png",
+    "static/media/emoji.webp": "/Its-Me/static/media/emoji.2fa9d4228127da500d93.webp",
+    "static/media/todo.png": "/Its-Me/static/media/todo.5526b3715c8ce93e32cb.png",
+    "static/media/shelly.jpg": "/Its-Me/static/media/shelly.69a0cb8009e834d35704.jpg",
+    "static/media/quiz.png": "/Its-Me/static/media/quiz.85db9b304cb6cd6f3364.png",
+    "static/media/tempo.png": "/Its-Me/static/media/tempo.2caff9751e925dcf0a37.png",
+    "static/media/project.webp": "/Its-Me/static/media/project.be034bec2479589c2840.webp",
+    "index.html": "/Its-Me/index.html",
+    "main.65e920df.css.map": "/Its-Me/static/css/main.65e920df.css.map",
+    "main.f7e753be.js.map": "/Its-Me/static/js/main.f7e753be.js.map",
+    "453.c17ccf3f.chunk.js.map": "/Its-Me/static/js/453.c17ccf3f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65e920df.css",
+    "static/js/main.f7e753be.js"
+  ]
+}
